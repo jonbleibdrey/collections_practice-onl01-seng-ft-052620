@@ -36,7 +36,8 @@ def find_a(strings)
 end
 
 def sum_array(num)
-  
+  num.inject { |sum, n| sum + n } 
+end
 
 
 
