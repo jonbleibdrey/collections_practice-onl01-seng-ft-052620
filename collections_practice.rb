@@ -7,7 +7,7 @@ def sort_array_desc(num)
 end
 
 def sort_array_char_count(string)
-  strings.sort_by(&:length)
+  string.sort_by(&:length)
 end
   
 
