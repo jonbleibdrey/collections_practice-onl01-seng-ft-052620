@@ -39,5 +39,13 @@ def sum_array(num)
   num.inject { |sum, n| sum + n } 
 end
 
+def add_s(string)
+  string.each_with_index.collect do |data,index| 
+    if index == 1
+      data
+    else
+      data << "s"
+    end
+
 
 
