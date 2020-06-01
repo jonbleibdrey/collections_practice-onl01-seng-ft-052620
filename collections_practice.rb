@@ -28,6 +28,7 @@ def kesha_maker(strings)
   word[2] = "$"
   output << word.join
   end
+  output
 end
   
 
