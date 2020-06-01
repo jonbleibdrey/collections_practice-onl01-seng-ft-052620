@@ -6,7 +6,9 @@ def sort_array_desc(num)
   num.sort.reverse
 end
 
-
+def sort_array_char_count(string)
+  strings.sort_by(&:length)
+end
   
 
 
