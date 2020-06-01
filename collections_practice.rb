@@ -21,7 +21,13 @@ def reverse_array(num)
   num.reverse
 end
 
-
+def kesha_maker(strings)
+  strings.each do |string|
+  word = strings.split("")
+  word[2] = "$"
+  word.join
+  end
+end
   
 
 
