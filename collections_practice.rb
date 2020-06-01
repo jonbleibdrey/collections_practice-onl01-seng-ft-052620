@@ -22,12 +22,12 @@ def reverse_array(num)
 end
 
 def kesha_maker(strings)
+  output=[]
   strings.each do |string|
   word = string.split("")
   word[2] = "$"
-  word.join
+  output << word.join
   end
-  strings
 end
   
 
