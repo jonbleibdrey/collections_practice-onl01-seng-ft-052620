@@ -47,6 +47,7 @@ def add_s(string)
       data << "s"
     end
   end
+end
 
 
 
