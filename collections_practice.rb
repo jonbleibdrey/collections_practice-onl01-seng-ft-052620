@@ -23,7 +23,7 @@ end
 
 def kesha_maker(strings)
   strings.each do |string|
-  word = strings.split("")
+  word = string.split("")
   word[2] = "$"
   word.join
   end
